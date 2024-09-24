@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resort la isla encantada</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Resort la isla encantada</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="gallery.html">Galería</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="reservation.php">Reservas</a></li>
+                <li><a href="contact.html">Contacto</a></li>      
+                <li><a href="login.php">Login</a></li>             
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Nueva sección del carousel -->
+        <section id="carousel" class="content-section">
+           
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/B7.webp" alt="Imagen 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/B5.webp" alt="Imagen 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/B9.webp" alt="Imagen 3">
+                    </div>
+                </div>
+                <button class="carousel-control prev" onclick="moveCarousel(-1)">&#10094;</button>
+                <button class="carousel-control next" onclick="moveCarousel(1)">&#10095;</button>
+            </div>
+        </section>
+        <section class="hero">
+            <img src="images/hotel1.jpg" alt="Imagen del Hotel" class="hero-image">
+            <div class="hero-description">
+                <h2>¡Bienvenidos a Resort la isla encantada! </h2>
+                <p>Donde cada momento se convierte en una experiencia mágica bajo el cielo estrellado. Sumérgete en un oasis de tranquilidad y comodidad, donde tus sueños encuentran su hogar.</p>
+            </div>
+        </section>
+
+        <section class="haro2">
+            <img src="images/Captura.png" alt="Imagen del Hotel" class="haro2-image">
+            <div class="haro2-description">
+                <h2>¡Nuestro logo representativo! </h2>
+                <p>Encapsula la filosofía y el ambiente del hotel, sirviendo como un emblema de la experiencia única que ofrecemos a nuestros huéspedes. 
+                    Con una ilustración que destaca una mujer con sombrero y gafas de sol, el diseño simboliza la sofisticación, el confort y el lujo que caracterizan nuestra estancia.</p>
+                    <p>El círculo que rodea la imagen, acompañado de las palabras "travel" y "comfort", refuerza nuestro compromiso de brindar una experiencia de viaje que sea tanto placentera como memorable. El nombre del hote, sugiere un destino idílico, 
+                        perfecto para quienes buscan escapar a un lugar encantador y lleno de serenidad.</p>
+                        <p>Este logo no solo respresenta nuestra identidad, sino que también comunica los valores que nos distinguen. Es un reflejo visual de la calidad y el confort que nuestros huéspedes pueden esperar.</p>
+            </div>
+        </section>
+
+
+        <section id="horarios" class="content-section">
+            <h2>Horarios</h2>
+            <div class="horarios-container">
+                <div class="horario">
+                    <h3>Check-in y Check-out</h3>
+                    <p>Check-in: 7:00pm
+                       Check-out: 7:00 pm
+                    </p>
+                </div>
+                <div class="horario">
+                    <h3>Recepción</h3>
+                    <p>Lunes a Domingo: 24 horas</p>
+                </div>
+                <div class="horario">
+                    <h3>Restaurante</h3>
+                    <p>Lunes a Viernes: 07:00 am - 8:00 pm <br>Sábado y Domingo: 07:00 am - 7:00 pm</p>
+                </div>                
+            </div>
+        </section>
+
+    
+        <section id="ubicacion" class="content-section">
+            <h2>Ubicación</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.024790870015!2d-81.69121798986171!3d12.580616987648737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f05af55b3ae83c1%3A0x1bbbc4d60e5716e3!2sHotel%20Las%20Lunas!5e0!3m2!1ses-419!2sco!4v1716065402650!5m2!1ses-419!2sco" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Contacto</h2>
+            <div class="contact-container">
+                <p><strong>Dirección:</strong> Cra. 1 #1 - 140, San Andrés, Colombia</p>
+                <p><strong>Correo Electrónico:</strong> resortlaislaencantada@outlook.com</p>
+                <p><strong>Teléfono:</strong> +57 314 315 5139</p>
+            </div>
+        </section>
+
+        <section id="medios_comunicacion" class="content-section">
+            <h2>Síguenos en nuestras redes sociales</h2>
+            <div class="medios-container">
+                <a href="https://www.facebook.com/profile.php?id=61565503820191" target="_blank" class="medios-container-link">
+                    <img src="images/facebook-icon.png" alt="Facebook" class="medios-container-icon">
+                </a>
+                <a href="https://www.instagram.com/resort_2709?igsh=MXJjNW1hdGxjN21h" target="_blank" class="medios-container-link">
+                    <img src="images/instagram-icon.png" alt="Instagram" class="medios-container-icon">
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Resort la isla encantada</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
